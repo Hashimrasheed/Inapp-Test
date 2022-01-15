@@ -11,4 +11,4 @@ To Run Locally, Follow these steps
       PORT=3000
 4. "yarn start" to run server
 
-Api logs are created in the folder /src/log
+
