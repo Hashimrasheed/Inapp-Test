@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
   "dependencies": {
     "body-parser": "^1.19.1",
     "dotenv": "^12.0.3",
