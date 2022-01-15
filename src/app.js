@@ -1,12 +1,13 @@
-
+let bookRoutes = require("./api/routes/book")
+let userRoutes = require("./api/routes/user")
 
 module.exports = async (app) => {
 
     //api
-    // youmaylike(app)
+    app.use("/book", bookRoutes);
+    app.use("/get-token", userRoutes);
+    
     app.use((req, res, next) => {
-    console.log(req.isAuth)
-
       const error = new Error("Not found");
       error.status = 404;
       next(error);

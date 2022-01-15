@@ -27,6 +27,10 @@ module.exports = async (app) => {
       "Access-Control-Allow-Headers",
       "Origin, X-Requested-With, Content-Type, Accept, Authorization"
     );
+    res.setHeader(
+      "Inapp",
+      "Hashim-Machine test"
+    );
     next();
   });
 
