@@ -23,6 +23,5 @@ module.exports = async (req, res, next) => {
         next();
     } 
     req.isAuth = true;
-    req.customer = decodedToken.customer;
     next();
 }

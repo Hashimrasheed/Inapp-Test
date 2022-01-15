@@ -8,7 +8,7 @@ module.exports = async (app) => {
 
   // writing logs
   var accessLogStream = rfs.createStream("access.log", {
-    interval: "1d", // rotate daily
+    interval: "1d",
     path: path.join("./src/log"),
   });
 

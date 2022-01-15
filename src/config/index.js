@@ -1,4 +1,4 @@
-const dotEnv  = require("dotenv").config();
+require("dotenv").config();
 const {JWT_KEY} = require("./constant")
 
 module.exports = {
