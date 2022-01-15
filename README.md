@@ -7,6 +7,7 @@ To Run Locally, Follow these steps
 3. create a .env file in the folder and add the below details to it 
       
       MONGODB_URI='mongodb://127.0.0.1:27017/Inapp'
+      
       PORT=3000
 4. "yarn start" to run server
 
