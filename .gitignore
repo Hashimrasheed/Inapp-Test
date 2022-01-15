@@ -1,4 +1,4 @@
-src/config/constant.js
+#src/config/constant.js
 .env
 src/log/*
 node_modules/*
